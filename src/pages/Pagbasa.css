@@ -1,0 +1,272 @@
+.red-background2 {
+  /*background-color: #8c383e;*/
+  background: #a73737;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7a2828, #a73737);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7a2828, #a73737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 20px;
+  text-align: center;
+  height: 200px;
+}
+
+.red-paragraph2 {
+  color: white; /* White text for contrast */
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.red-paragraph22 {
+  color: white; /* White text for contrast */
+  margin: 0;
+  font-weight: bold;
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+/* Main Content Section */
+.main-content2 {
+  display: flex;
+  justify-content: space-around; /* Space between containers */
+  padding: 20px;
+}
+
+/* Container Styling */
+.container2 {
+  width: 45%;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.left-container2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column; /* Stacks children vertically */
+  align-items: center; /* Aligns the content to the left */
+  margin-right: 5px; /* Space between left and right container */
+  padding-top: 140px;
+}
+
+.right-container2 {
+  background-color: white;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+}
+
+.commu1 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+.titleb {
+  background-color: #8c0000; /* Background color */
+  border: 1px solid #8c383e; /* Solid border */
+  width: 300px;
+  height: 120px;
+  border-radius: 20px;
+
+  /* Flexbox for centering */
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  text-align: center;
+}
+
+.titleb2 {
+  background-color: #8c0000; /* Background color */
+  border: 1px solid #8c383e; /* Solid border */
+  width: 300px;
+  height: 100px;
+  border-radius: 20px;
+
+  /* Flexbox for centering */
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  text-align: center;
+  padding-top: 15px;
+}
+
+.titleb3 {
+  background-color: #8c0000; /* Background color */
+  border: 1px solid #8c383e; /* Solid border */
+  width: 300px;
+  height: 120px;
+  border-radius: 20px;
+
+  /* Flexbox for centering */
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  text-align: center;
+}
+
+.titleb4 {
+  background-color: #8c0000; /* Background color */
+  border: 1px solid #8c383e; /* Solid border */
+  width: 330px;
+  height: 150px;
+  border-radius: 20px;
+
+  /* Flexbox for centering */
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  text-align: center;
+  padding-right: 5px;
+}
+
+.titleb5 {
+  background-color: #8c0000; /* Background color */
+  border: 1px solid #8c383e; /* Solid border */
+  width: 300px;
+  height: 120px;
+  border-radius: 20px;
+
+  /* Flexbox for centering */
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  text-align: center;
+}
+
+/* Title styling */
+.title11 {
+  font-size: 35px;       /* Larger font for title */
+  font-weight: bold;     /* Bold font for the title */
+  color: #fff;           /* Text color (white for better contrast) */
+  padding-right: 10px;
+}
+
+.commu1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  padding-bottom: 150px;
+}
+
+.agham-image {
+  padding-top: 70px;
+  height: 18%;
+}
+
+.title22 {
+  font-size: 35px;       /* Larger font for title */
+  font-weight: bold;     /* Bold font for the title */
+  color: #fff;           /* Text color (white for better contrast) */
+  padding-bottom: 20px;
+  padding-right: 7px;
+}
+
+.commu2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  padding-bottom: 150px;
+}
+
+.arts-image {
+  padding-top: 20px;
+  padding-left: 35px;
+  border-radius: 60px;
+}
+
+.title33 {
+  font-size: 35px;       /* Larger font for title */
+  font-weight: bold;     /* Bold font for the title */
+  color: #fff;           /* Text color (white for better contrast) */
+  padding-top: 0px;
+  padding-left: 5px;
+  
+}
+
+.commu3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  padding-bottom: 220px;
+}
+
+.panlipunan-image {
+  padding-top: 20px;
+  height: 21;
+}
+
+.title44 {
+  font-size: 40px;       /* Larger font for title */
+  font-weight: bold;     /* Bold font for the title */
+  color: #fff;           /* Text color (white for better contrast) */
+}
+
+.commu4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  padding-bottom: 100px;
+}
+
+.technology-image {
+  padding-top:  0px;
+  height: 18%;
+}
+
+.title55 {
+  font-size: 40px;       /* Larger font for title */
+  font-weight: bold;     /* Bold font for the title */
+  color: #fff;           /* Text color (white for better contrast) */
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+
+.commu5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+}
+
+.education-image {
+  padding-top: 20px;
+  height: 18%;
+}
+
+.rbackground2 {
+  background: #ffdc14;
+  padding: 20px;
+  text-align: center;
+  height: 300px;
+  width: 1000px;
+  margin: 0 auto; /* Centers the element horizontally */
+  border-radius: 30px;
+}
+
+.rparagraph2 {
+  color: maroon; /* White text for contrast */
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.rparagraph22 {
+  color: black; /* White text for contrast */
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}

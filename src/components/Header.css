@@ -1,0 +1,47 @@
+/* Add this in your CSS file or index.html */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+.header {
+  background-color: white; /* Light grey background */
+  padding: 20px; /* Add some padding */
+  text-align: center; /* Center the text */
+  position: relative; /* Make the header container relative for positioning the icon */
+}
+
+.logo2-image {
+  width: 600px; /* Adjust the size of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  display: inline; /* Display links inline */
+  margin: 0 15px; /* Space between links */
+  font-weight: bold;
+  font-size: 15px;
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Link color */
+}
+
+/* Add this to include FontAwesome back icon */
+.back-icon {
+  position: absolute;
+  left: 20px;
+  top: 80%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #333; /* Icon color */
+  background: none; /* Remove button background */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Make the icon clickable */
+}
+

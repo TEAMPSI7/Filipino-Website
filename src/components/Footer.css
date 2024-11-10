@@ -1,0 +1,70 @@
+/* Footer Styling */
+.footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #8c383e;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligns sections at the top */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  }
+  
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px; /* Space between sections */
+  }
+  
+  .logo3-image {
+    width: 300px; /* Adjusts the logo size */
+    height: auto;
+  }
+  
+  .contact-item,
+  .social-icons a {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+
+  .contact-info {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .contact {
+    font-size: 30px;
+  }
+
+  .touch {
+    font-size: 30px;
+  }
+
+  .social-media {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding-right: 50px;
+  }
+  
+  .contact-icon,
+  .social-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px; /* Space between icon and text */
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px; /* Space between social media icons */
+  }
+  
+  
+  

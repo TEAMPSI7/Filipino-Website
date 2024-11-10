@@ -1,0 +1,281 @@
+/* Sining.css */
+.red-background {
+  /*background-color: #8c383e;*/
+  background: #a73737;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7a2828, #a73737);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7a2828, #a73737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 20px;
+  text-align: center;
+  height: 200px;
+}
+
+.red-paragraph {
+  color: white; /* White text for contrast */
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.red-paragraph1 {
+  color: white; /* White text for contrast */
+  margin: 0;
+  font-weight: bold;
+  padding-top: 28px;
+  font-size: 25px;
+}
+
+/* Main Content Section */
+.main-content {
+  display: flex;
+  justify-content: space-around; /* Space between containers */
+  padding: 20px;
+}
+
+/* Container Styling */
+.container {
+  width: 45%;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.left-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column; /* Stacks children vertically */
+  align-items: center; /* Aligns the content to the left */
+  margin-right: 5px; /* Space between left and right container */
+  padding-top: 140px;
+}
+
+.right-container {
+  background-color: white;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+}
+
+.pcommu {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+.commu-image{
+  border-radius: 20px;
+}
+
+.title-box {
+  background-color: #8c0000; /* Background color */
+  border: 1px solid #8c383e; /* Solid border */
+  width: 300px;
+  height: 80px;
+  border-radius: 20px;
+
+  /* Flexbox for centering */
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  text-align: center;
+}
+
+.title-box2 {
+  background-color: #8c0000; /* Background color */
+  border: 1px solid #8c383e; /* Solid border */
+  width: 300px;
+  height: 80px;
+  border-radius: 20px;
+
+  /* Flexbox for centering */
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  text-align: center;
+  padding-top: 20px;
+}
+
+.title-box3 {
+  background-color: #8c0000; /* Background color */
+  border: 1px solid #8c383e; /* Solid border */
+  width: 300px;
+  height: 120px;
+  border-radius: 20px;
+
+  /* Flexbox for centering */
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  text-align: center;
+}
+
+.title-box4 {
+  background-color: #8c0000; /* Background color */
+  border: 1px solid #8c383e; /* Solid border */
+  width: 350px;
+  height: 130px;
+  border-radius: 20px;
+
+  /* Flexbox for centering */
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+.title-box5 {
+  background-color: #8c0000; /* Background color */
+  border: 1px solid #8c383e; /* Solid border */
+  width: 300px;
+  height: 120px;
+  border-radius: 20px;
+
+  /* Flexbox for centering */
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  text-align: center;
+}
+
+/* Title styling */
+.title1 {
+  font-size: 40px;       /* Larger font for title */
+  font-weight: bold;     /* Bold font for the title */
+  color: #fff;           /* Text color (white for better contrast) */
+  padding-bottom: 105px;
+  padding-right: 10px;
+}
+
+.pcommu1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  padding-bottom: 120px;
+}
+
+.title2 {
+  font-size: 35px;       /* Larger font for title */
+  font-weight: bold;     /* Bold font for the title */
+  color: #fff;           /* Text color (white for better contrast) */
+  padding-bottom: 20px;
+  padding-right: 7px;
+}
+
+.pcommu2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  padding-bottom: 100px;
+}
+
+.title3 {
+  font-size: 35px;       /* Larger font for title */
+  font-weight: bold;     /* Bold font for the title */
+  color: #fff;           /* Text color (white for better contrast) */
+  padding-top: 110px;
+  padding-right: 10px;
+  
+}
+
+.pcommu3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  padding-bottom: 110px;
+}
+
+.title4 {
+  font-size: 40px;       /* Larger font for title */
+  font-weight: bold;     /* Bold font for the title */
+  color: #fff;           /* Text color (white for better contrast) */
+}
+
+.pcommu4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  padding-bottom: 120px;
+}
+
+.title5 {
+  font-size: 40px;       /* Larger font for title */
+  font-weight: bold;     /* Bold font for the title */
+  color: #fff;           /* Text color (white for better contrast) */
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+
+.pcommu5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+}
+
+/* Footer Styling */
+.footer {
+  background-color:#8c0000; /* Same red background as title-box */
+  padding: 20px;            /* Add some padding for spacing */
+  text-align: center;        /* Center the text horizontally */
+  margin-top: 30px;          /* Add some space above the footer */
+}
+
+/* Footer Text Styling */
+.footer-text {
+  color: white;              /* Make the text white for contrast */
+  font-size: 18px;           /* Adjust the font size as needed */
+  margin: 0;                 /* Remove default margin */
+}
+
+.commu-image {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.wika-image {
+  padding-left: 90px;
+  padding-bottom: 30px;
+}
+
+.kultura-image {
+  padding-bottom: 50px;
+}
+
+.rbackground1 {
+  background: #ffdc14;
+  padding: 20px;
+  text-align: center;
+  height: 300px;
+  width: 1000px;
+  margin: 0 auto; /* Centers the element horizontally */
+  border-radius: 30px;
+}
+
+.rparagraph1 {
+  color: maroon; /* White text for contrast */
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.rparagraph11 {
+  color: black; /* White text for contrast */
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
