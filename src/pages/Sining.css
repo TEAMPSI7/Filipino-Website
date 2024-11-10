@@ -279,3 +279,116 @@ h2 {
   font-size: 25px;
   text-align: center;
 }
+
+/* Media Queries for Responsive Design */
+
+/* For small screens (max width 768px) */
+@media (max-width: 768px) {
+  /* Main Content Section */
+  .main-content {
+    flex-direction: column; /* Stack content vertically */
+    padding: 10px;
+  }
+
+  /* Container Styling */
+  .container {
+    width: 100%; /* Make containers take full width on small screens */
+    margin-bottom: 20px; /* Add some space between containers */
+  }
+
+  .left-container {
+    padding-top: 40px; /* Adjust padding for smaller screens */
+  }
+
+  .right-container {
+    padding-top: 40px;
+  }
+
+  .title1, .title2, .title3, .title4, .title5 {
+    font-size: 30px; /* Smaller titles for smaller screens */
+    padding-bottom: 60px; /* Adjust padding */
+  }
+
+  .pcommu, .pcommu1, .pcommu2, .pcommu3, .pcommu4, .pcommu5 {
+    font-size: 20px; /* Smaller font size for paragraphs */
+    padding-bottom: 60px; /* Adjust padding */
+  }
+
+  .title-box, .title-box2, .title-box3, .title-box4, .title-box5 {
+    width: 100%; /* Make title boxes take full width */
+    height: auto; /* Adjust height based on content */
+    padding: 10px; /* Add some padding inside */
+    text-align: center;
+  }
+
+  .footer {
+    padding: 15px; /* Adjust footer padding */
+  }
+
+  .footer-text {
+    font-size: 16px; /* Smaller footer text */
+  }
+
+  .commu-image, .wika-image, .kultura-image {
+    padding-left: 0; /* Remove extra padding */
+    padding-bottom: 10px; /* Adjust bottom padding */
+  }
+
+  .rbackground1 {
+    width: 100%; /* Make background take full width */
+    margin: 0 auto;
+    padding: 10px; /* Adjust padding */
+  }
+
+  .rparagraph1, .rparagraph11 {
+    font-size: 20px; /* Adjust font size for paragraphs */
+  }
+}
+
+/* For extra small screens (max width 480px) */
+@media (max-width: 480px) {
+  /* Title and paragraph text */
+  .title1, .title2, .title3, .title4, .title5 {
+    font-size: 25px; /* Smaller titles */
+    padding-bottom: 40px;
+  }
+
+  .pcommu, .pcommu1, .pcommu2, .pcommu3, .pcommu4, .pcommu5 {
+    font-size: 18px; /* Smaller paragraphs */
+  }
+
+  /* Containers */
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  /* Title boxes */
+  .title-box, .title-box2, .title-box3, .title-box4, .title-box5 {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+  }
+
+  /* Footer text */
+  .footer-text {
+    font-size: 14px; /* Smaller footer text */
+  }
+
+  /* Adjust images */
+  .commu-image, .wika-image, .kultura-image {
+    padding-left: 0;
+    padding-bottom: 5px;
+  }
+
+  /* Adjust background box */
+  .rbackground1 {
+    width: 100%;
+    padding: 8px;
+  }
+
+  .rparagraph1, .rparagraph11 {
+    font-size: 18px; /* Smaller font for paragraphs */
+  }
+}
+

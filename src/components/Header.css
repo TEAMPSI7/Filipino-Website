@@ -22,15 +22,9 @@
   position: relative; /* Make the header container relative for positioning the icon */
 }
 
-.header {
-  background-color: white; /* Light grey background */
-  padding: 20px; /* Add some padding */
-  text-align: center; /* Center the text */
-  position: relative; /* Make the header container relative for positioning the icon */
-}
-
 .logo2-image {
-  width: 600px; /* Adjust the size of the logo */
+  width: 100%; /* Make the logo responsive */
+  max-width: 600px; /* Limit the logo width */
   height: auto; /* Maintain aspect ratio */
 }
 
@@ -113,10 +107,49 @@ nav ul li a {
 .dropdown-menu li a:hover {
   background-color: #f0f0f0; /* Light grey background on hover */
   color: #000; /* Text color change on hover */
+
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  .logo2-image {
+    max-width: 100%; /* Make logo smaller on smaller screens */
+  }
 
+  nav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 
+  nav ul li {
+    display: block; /* Stack links vertically on smaller screens */
+    margin: 10px 0; /* Add spacing between links */
+    font-size: 14px; /* Slightly smaller font size */
+  }
 
+  /* Hide regular navigation links on small screens */
+  .hamburger-icon {
+    display: block;
+  }
 
+  .dropdown-menu {
+    width: 100%; /* Make the dropdown menu full width */
+  }
 
+  .back-icon {
+    font-size: 16px; /* Reduce back icon size */
+    top: 90%; /* Adjust position on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo2-image {
+    max-width: 80%; /* Make logo even smaller on very small screens */
+  }
+
+  .hamburger-button {
+    font-size: 30px; /* Increase hamburger icon size */
+  }
+}

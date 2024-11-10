@@ -270,3 +270,161 @@ h2 {
   font-size: 25px;
   text-align: center;
 }
+
+/* Media query for screens smaller than 768px (tablets and small screens) */
+@media (max-width: 768px) {
+  /* Red background section */
+  .red-background2 {
+    height: auto;
+    padding: 15px;
+  }
+
+  .red-paragraph2,
+  .red-paragraph22 {
+    font-size: 20px; /* Adjust font size */
+    padding-top: 20px;
+  }
+
+  .main-content2 {
+    flex-direction: column; /* Stack content vertically */
+    padding: 10px;
+  }
+
+  .container2 {
+    width: 90%; /* Adjust container width */
+    padding: 15px;
+  }
+
+  .left-container2 {
+    padding-top: 80px; /* Adjust padding for better alignment */
+  }
+
+  .right-container2 {
+    padding-top: 20px;
+  }
+
+  .titleb,
+  .titleb2,
+  .titleb3,
+  .titleb4,
+  .titleb5 {
+    width: 90%; /* Adjust width to fit smaller screens */
+    height: auto; /* Adjust height for flexibility */
+    padding: 10px;
+    margin: 10px 0; /* Add margin for better spacing */
+  }
+
+  .commu1,
+  .commu2,
+  .commu3,
+  .commu4,
+  .commu5 {
+    font-size: 20px; /* Adjust font size for smaller screens */
+    padding-bottom: 20px;
+  }
+
+  .title11,
+  .title22,
+  .title33,
+  .title44,
+  .title55 {
+    font-size: 30px; /* Adjust title font size */
+    padding-right: 10px;
+  }
+
+  .agham-image,
+  .arts-image,
+  .panlipunan-image,
+  .technology-image,
+  .education-image {
+    height: auto;
+    width: 100%; /* Make images responsive */
+    padding-top: 10px;
+  }
+
+  .rbackground2 {
+    width: 100%; /* Make background section full width */
+    padding: 10px;
+    border-radius: 15px; /* Slightly smaller radius for mobile view */
+  }
+
+  .rparagraph2,
+  .rparagraph22 {
+    font-size: 22px;
+    padding-top: 20px;
+  }
+}
+
+/* Media query for screens smaller than 480px (small phones) */
+@media (max-width: 480px) {
+  .red-background2 {
+    padding: 10px;
+  }
+
+  .red-paragraph2,
+  .red-paragraph22 {
+    font-size: 18px; /* Smaller font size for very small screens */
+  }
+
+  .main-content2 {
+    flex-direction: column; /* Stack content vertically */
+    padding: 5px;
+  }
+
+  .container2 {
+    width: 100%; /* Full width for containers */
+    padding: 10px;
+  }
+
+  .left-container2,
+  .right-container2 {
+    padding-top: 60px; /* Adjust padding for small screens */
+  }
+
+  .titleb,
+  .titleb2,
+  .titleb3,
+  .titleb4,
+  .titleb5 {
+    width: 100%; /* Make title boxes full width */
+    height: auto; /* Auto height for better fitting */
+    padding: 5px;
+  }
+
+  .commu1,
+  .commu2,
+  .commu3,
+  .commu4,
+  .commu5 {
+    font-size: 18px; /* Smaller font size */
+    padding-bottom: 15px;
+  }
+
+  .title11,
+  .title22,
+  .title33,
+  .title44,
+  .title55 {
+    font-size: 28px; /* Slightly smaller title font */
+  }
+
+  .agham-image,
+  .arts-image,
+  .panlipunan-image,
+  .technology-image,
+  .education-image {
+    height: auto;
+    width: 100%; /* Ensure images are responsive */
+    padding-top: 5px;
+  }
+
+  .rbackground2 {
+    width: 100%; /* Full width for mobile */
+    padding: 10px;
+  }
+
+  .rparagraph2,
+  .rparagraph22 {
+    font-size: 20px; /* Adjust font size for very small screens */
+  }
+}

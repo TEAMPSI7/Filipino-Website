@@ -1,239 +1,208 @@
+/* Default styles */
 .container1 {
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space out the columns */
-    align-items: center; /* Center content vertically */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  text-align: left;
+  background-color: white;
+  min-height: 1000px;
+}
+
+.right-column {
+  flex: 1;
+  text-align: right;
+  background-color: maroon;
+  min-height: 1000px;
+  overflow: hidden;
+}
+
+.title1, .title2, .title3 {
+  font-size: 5.0rem;
+  color: black;
+  margin: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.title1 {
+  padding-top: 35%;
+}
+
+.title3 {
+  padding-bottom: 35%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 190px;
+  padding-left: 50px;
+  position: relative;
+}
+
+.moving-button {
+  position: relative;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  outline: none;
+  height: 180px;
+  width: 100%;
+}
+
+.moving-button:hover {
+  transform: translateX(40px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.button1 {
+  background-color: #1976af;
+}
+
+.button2 {
+  background-color: #f7bb29;
+}
+
+.button3 {
+  background-color: #556098;
+}
+
+.button4 {
+  background-color: #6ebe81;
+}
+
+.vertical-line1, .vertical-line2, .vertical-line3, .vertical-line4,
+.vertical-line5, .vertical-line6, .vertical-line7, .vertical-line8,
+.vertical-line9, .vertical-line10, .vertical-line11, .vertical-line12,
+.vertical-line13, .vertical-line14, .vertical-line15, .vertical-line16 {
+  width: 10px;
+  background-color: white;
+  height: 100%;
+  position: absolute;
+}
+
+.vertical-line1 { left: 120px; top: 0; }
+.vertical-line2 { left: 80px; top: 0; }
+.vertical-line3 { left: 800px; top: 0; }
+.vertical-line4 { left: 850px; top: 0; }
+.vertical-line5 { left: 120px; top: 0; }
+.vertical-line6 { left: 80px; top: 0; }
+.vertical-line7 { left: 800px; top: 0; }
+.vertical-line8 { left: 850px; top: 0; }
+.vertical-line9 { left: 120px; top: 0; }
+.vertical-line10 { left: 80px; top: 0; }
+.vertical-line11 { left: 800px; top: 0; }
+.vertical-line12 { left: 850px; top: 0; }
+.vertical-line13 { left: 120px; top: 0; }
+.vertical-line14 { left: 80px; top: 0; }
+.vertical-line15 { left: 800px; top: 0; }
+.vertical-line16 { left: 850px; top: 0; }
+
+.logo-image {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1200px) {
+  .container1 {
+    flex-direction: column; /* Stack the columns */
+    align-items: flex-start;
   }
-  
-  .left-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1; /* Left column takes available space */
-    text-align: left; /* Align text to the left */
-    background-color: white;
-    min-height: 1000px;
+
+  .left-column, .right-column {
+    min-height: auto; /* Allow columns to adjust height */
   }
-  
-  .right-column {
-    flex: 1; /* Right column takes available space */
-    text-align: right; /* Align text to the right */
-    background-color: maroon;
-    min-height: 1000px;
-    overflow: hidden; /* Prevent content from overflowing */
-  }
-  
-  .title1, .title2, .title3 {
-    font-size: 5.0rem; /* Set a specific font size */
-    color: black; /* Change text color */
-    margin: 0; /* Remove default margin */
-    font-weight: bold; /* Set font weight */
-    text-transform: uppercase; /* Transform text to uppercase */
-    padding-left: 10px;
-  }
-  
-  .title1 {
-    padding-top: 35%; /* Top padding for spacing */
-  }
-  
-  .title3 {
-    padding-bottom: 35%; /* Bottom padding for spacing */
-  }
-  
+
   .button-container {
-    display: flex;
-    flex-direction: column; /* Arrange buttons vertically */
-    gap: 30px; /* Space between buttons */
-    padding-top: 190px;
-    padding-left: 50px; /* Left padding for container */
-    position: relative; /* Keep buttons from affecting layout */
+    padding-top: 120px; /* Adjust button container padding */
+    padding-left: 30px;
   }
-  
+
+  .vertical-line1, .vertical-line2, .vertical-line3, .vertical-line4,
+  .vertical-line5, .vertical-line6, .vertical-line7, .vertical-line8,
+  .vertical-line9, .vertical-line10, .vertical-line11, .vertical-line12,
+  .vertical-line13, .vertical-line14, .vertical-line15, .vertical-line16 {
+    left: 50%; /* Adjust vertical lines to be centered */
+    transform: translateX(-50%);
+  }
+
   .moving-button {
-    position: relative; /* Allow absolute positioning for children */
-    background-color: #007bff;
-    color: white;
-    border: none;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition */
-    outline: none; 
-    height: 180px; /* Fixed height */
-    width: 100%; /* Use 100% width for responsiveness */
-  }
-  
-  .moving-button:hover {
-    transform: translateX(40px); /* Move right only */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
-  }
-  
-  .button1 {
-    background-color: #1976af; /* Specific color for Button 1 */
-    overflow: hidden; /* Prevent content from overflowing */
-  }
-  
-  .button2 {
-    background-color: #f7bb29;   /* Specific color for Button 1 */
-    overflow: hidden; /* Prevent content from overflowing */
-  }
-  
-  .button3 {
-    background-color: #556098; /* Specific color for Button 1 */
-    overflow: hidden; /* Prevent content from overflowing */
-  }
-  
-  .button4 {
-    background-color:  #6ebe81; /* Specific color for Button 1 */
-    overflow: hidden; /* Prevent content from overflowing */
+    height: 150px; /* Adjust button height for smaller screens */
   }
 
-  .vertical-line1 {
-    width: 10px;
-    background-color: white;
-    height: 100%; 
-    position: absolute; 
-    left: 120px;
-    top: 0;
+  .title1, .title2, .title3 {
+    font-size: 3.0rem; /* Scale down font size for smaller screens */
   }
-  
-  .vertical-line2 {
-    width: 10px;
-    background-color: white; 
-    height: 100%; 
-    position: absolute; 
-    left: 80px; 
-    top: 0; 
-  }
-  
-  .vertical-line3 {
-    width: 10px; 
-    background-color: white; 
-    height: 100%;
-    position: absolute; 
-    left: 800px; 
-    top: 0; 
-  }
-  
-  .vertical-line4 {
-    width: 10px; 
-    background-color: white; 
-    height: 100%;
-    position: absolute; 
-    left: 850px; 
-    top: 0; 
-  }
-  
-  .vertical-line5 {
-    width: 10px;
-    background-color: white;
-    height: 100%; 
-    position: absolute; 
-    left: 120px;
-    top: 0;
-  }
-  
-  .vertical-line6 {
-    width: 10px; 
-    background-color: white;
-    height: 100%; 
-    position: absolute; 
-    left: 80px; 
-    top: 0;
-  }
-  
-  .vertical-line7 {
-    width: 10px; 
-    background-color: white; 
-    height: 100%;
-    position: absolute; 
-    left: 800px; 
-    top: 0; 
-  }
-  
-  .vertical-line8 {
-    width: 10px; 
-    background-color: white; 
-    height: 100%;
-    position: absolute; 
-    left: 850px; 
-    top: 0; 
-  }
-  
-  .vertical-line9 {
-    width: 10px; 
-    background-color: white; 
-    height: 100%; 
-    position: absolute; 
-    left: 120px; 
-    top: 0; 
-  }
-  
-  .vertical-line10 {
-    width: 10px; 
-    background-color: white; 
-    height: 100%; 
-    position: absolute; 
-    left: 80px; 
-    top: 0; 
-  }
-  
-  .vertical-line11 {
-    width: 10px; 
-    background-color: white; 
-    height: 100%;
-    position: absolute; 
-    left: 800px; 
-    top: 0; 
-  }
-  
-  .vertical-line12 {
-    width: 10px; 
-    background-color: white; 
-    height: 100%;
-    position: absolute; 
-    left: 850px; 
-    top: 0; 
-  }
-  
-  .vertical-line13 {
-    width: 10px; 
-    background-color: white; 
-    height: 100%; 
-    position: absolute; 
-    left: 120px; 
-    top: 0; 
-  }
-  
-  .vertical-line14 {
-    width: 10px; 
-    background-color: white; 
-    height: 100%; 
-    position: absolute; 
-    left: 80px; 
-    top: 0; 
-  }
-  
-  .vertical-line15 {
-    width: 10px; 
-    background-color: white; 
-    height: 100%;
-    position: absolute; 
-    left: 800px; 
-    top: 0; 
+}
+
+@media screen and (max-width: 768px) {
+  .title1, .title2, .title3 {
+    font-size: 2.0rem; /* Reduce font size further */
   }
 
-  .vertical-line16 {
-    width: 10px; 
-    background-color: white; 
-    height: 100%;
-    position: absolute; 
-    left: 850px; 
-    top: 0; 
+  .button-container {
+    padding-top: 80px;
+    padding-left: 20px;
+  }
+
+  .vertical-line1, .vertical-line2, .vertical-line3, .vertical-line4,
+  .vertical-line5, .vertical-line6, .vertical-line7, .vertical-line8,
+  .vertical-line9, .vertical-line10, .vertical-line11, .vertical-line12,
+  .vertical-line13, .vertical-line14, .vertical-line15, .vertical-line16 {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .left-column, .right-column {
+    flex: 1 100%; /* Make columns stack vertically */
+    min-height: auto;
+  }
+
+  .container1 {
+    flex-direction: column; /* Stack columns for smaller screens */
+  }
+
+  .moving-button {
+    height: 120px; /* Adjust button size */
   }
 
   .logo-image {
-    width: 100%;  /* You can adjust this size */
-    height: auto;
-    margin-top: 0px;
+    width: 80%; /* Adjust logo size */
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title1, .title2, .title3 {
+    font-size: 1.5rem; /* Further reduce font size */
+  }
+
+  .button-container {
+    padding-top: 50px;
+    padding-left: 10px;
+  }
+
+  .moving-button {
+    height: 100px; /* Further reduce button size */
+  }
+
+  .logo-image {
+    width: 70%; /* Further adjust logo size */
+  }
 }
