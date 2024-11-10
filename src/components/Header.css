@@ -1,6 +1,27 @@
 /* Add this in your CSS file or index.html */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 30s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.header {
+  background-color: white; /* Light grey background */
+  padding: 20px; /* Add some padding */
+  text-align: center; /* Center the text */
+  position: relative; /* Make the header container relative for positioning the icon */
+}
+
 .header {
   background-color: white; /* Light grey background */
   padding: 20px; /* Add some padding */
@@ -34,14 +55,68 @@ nav ul li a {
 
 /* Add this to include FontAwesome back icon */
 .back-icon {
+  font-size: 18px;
+  margin-right: 15px;
+  color: #333;
+  background: none;
+  border: none;
+  cursor: pointer;
   position: absolute;
   left: 20px;
   top: 80%;
   transform: translateY(-50%);
-  font-size: 18px;
-  color: #333; /* Icon color */
-  background: none; /* Remove button background */
-  border: none; /* Remove button border */
-  cursor: pointer; /* Make the icon clickable */
 }
+
+.hamburger-icon {
+  display: inline-block;
+  position: relative;
+}
+
+.hamburger-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  list-style-type: none;
+  width: 450px; /* Adjust width as needed */
+  padding: 0; /* Remove padding to avoid gaps */
+  margin: 0; /* Remove margin to avoid gaps */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: left;
+}
+
+.dropdown-menu li {
+  width: 100%;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
+  padding: 10px; /* Provides padding inside the link */
+  width: 100%; /* Ensures the link spans the full width of the li */
+  box-sizing: border-box; /* Keeps padding within the width */
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0; /* Light grey background on hover */
+  color: #000; /* Text color change on hover */
+}
+
+
+
+
+
 
